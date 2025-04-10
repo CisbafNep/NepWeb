@@ -2,7 +2,5 @@
 services:
   nep:
     build: .
-    env_file:
-      - .env
     ports:
       - "${NEPWEB_PORT}:8000"
