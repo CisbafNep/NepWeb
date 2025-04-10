@@ -1,4 +1,4 @@
 git pull
 docker compose build
 docker compose stop
-docker compose up
+docker compose up -d
