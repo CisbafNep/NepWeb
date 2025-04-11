@@ -1,7 +1,6 @@
-FROM python:3.12.9
+FROM nginx:stable-alpine
 
-WORKDIR /app
+COPY src/ /usr/share/nginx/html
+COPY nginx.conf /etc/nginx/conf.d/default.conf
 
-COPY /src .
-
-CMD [ "python", "-m", "http.server", "8000"]
+EXPOSE 80
