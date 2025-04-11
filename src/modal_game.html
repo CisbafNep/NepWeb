@@ -18,6 +18,8 @@
             width: 100%;
             overflow: hidden;
             background-color: #000;
+            overscroll-behavior: none;
+            -webkit-overflow-scrolling: touch;
         }
 
         .gameModal {
@@ -70,6 +72,17 @@
         #rotateAlert button:hover {
             background-color: #0056b3;
         }
+
+        @media (max-width: 768px) {
+            .gameModal {
+                padding: 10px;
+                box-sizing: border-box;
+            }
+
+            .gameModal iframe {
+                border-radius: 8px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -96,7 +109,7 @@
                 alertBox.classList.add("visible");
             } else {
                 alertBox.classList.remove("visible");
-                userClosedAlert = false; // reset if in landscape
+                userClosedAlert = false;
             }
         }
 
