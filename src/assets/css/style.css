@@ -493,4 +493,21 @@ button:hover {
   .videoContainer {
       padding-top: 36%;
   }
+
+  #btnYear,
+button {
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: center;
+  padding: 10px;
+  background: #d3f7ef;
+  font-weight: bold;
+}
+
+#btnYear,
+button:hover {
+  background: #333;
+  color: white;
+  border: #fff;
+}
 }
