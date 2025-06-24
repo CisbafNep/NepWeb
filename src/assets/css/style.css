@@ -494,20 +494,8 @@ button:hover {
       padding-top: 36%;
   }
 
-  #btnYear,
-button {
-  border-radius: 8px;
-  cursor: pointer;
-  text-align: center;
-  padding: 10px;
-  background: #d3f7ef;
-  font-weight: bold;
-}
-
-#btnYear,
-button:hover {
-  background: #333;
-  color: white;
-  border: #fff;
-}
+  .btnYear button {
+    flex: 1 1 45%; /* 2 botões por linha */
+    font-size: 13px;
+  }
 }
