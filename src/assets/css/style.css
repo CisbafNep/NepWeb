@@ -186,6 +186,21 @@ header a {
   font-size: 1em;
   margin-bottom: 15px;
 }
+.card-past {
+  padding: 15px;
+  text-align: center;
+}
+
+.card-past h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.card-past p {
+  color: #555;
+  font-size: 1em;
+  margin-bottom: 15px;
+}
 
 .card-content a {
   display: inline-block;
@@ -198,6 +213,19 @@ header a {
 
 .card-content a:hover {
   background: brown;
+}
+
+.card-past a {
+  display: inline-block;
+  background: grey;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.card-past a:hover {
+  background: rgb(63, 132, 236);
 }
 
 .label-tag {

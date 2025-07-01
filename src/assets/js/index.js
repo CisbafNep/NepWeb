@@ -49,23 +49,6 @@ function closeMenu() {
       //filtro por ano nos cards cursos anteriores
 
 
-    // function filtrarAno(ano) {
-    //     const cards = document.querySelectorAll('.container .card');
-
-    //     cards.forEach(card => {
-    //         const classes = card.classList;
-    //         if (ano === 'todos') {
-    //             card.style.display = 'block';
-    //         } else {
-    //             if (classes.contains('ano' + ano)) {
-    //                 card.style.display = 'block';
-    //             } else {
-    //                 card.style.display = 'none';
-    //             }
-    //         }
-    //     });
-    // }
-
     
     function filtrarAno(ano) {
         const containers = document.querySelectorAll('.container');
