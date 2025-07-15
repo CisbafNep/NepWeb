@@ -130,13 +130,13 @@ display: block;
 
 /* informações principais*/
 .corpo_nep {
-    display: flex;
-    margin-top: 5px;
-    margin-bottom: 50px;
-    /* position: relative; */
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
+  display: flex;
+  margin-top: 5px;
+  margin-bottom: 50px;
+  /* position: relative; */
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
     background-color: darkgoldenrod;
     color: #fff;
 }

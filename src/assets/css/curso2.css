@@ -130,21 +130,21 @@ display: block;
 
 /* informações principais*/
 .corpo_nep {
-    display: flex;
-    margin-top: 5px;
-    margin-bottom: 50px;
-    /* position: relative; */
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
+  display: flex;
+  margin-top: 5px;
+  margin-bottom: 50px;
+  /* position: relative; */
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
     background-color: #B95151;
     color: #fff;
 }
 .corpo_nep, h1 h2 p {
-    padding: 8px;
-    font-size: 25px;
-    margin-right: auto;
-    text-align: center;
+  padding: 8px;
+  font-size: 25px;
+  margin-right: auto;
+  text-align: center;
 }
 .midianep {
     width: 250px;
