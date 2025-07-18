@@ -3,9 +3,9 @@
 //gráfico de barras//
 
 const ctx = document.getElementById('alunosChart').getContext('2d');
- let labels = ['Téc de Enfermagem l (2020)', 'Cuidador em Saúde Mental (2020)', 'ACS | Agentes Comunitários de Saúde(2020)', 'TARM (2021)', 'Base SAMU 192 (2021) - Módulo I', 'Base SAMU 192 (2021) - Módulo II', 'Base SAMU 192 (2021) - Módulo III', 'Téc de Enfermagem ll (2021)', 'Téc de Enfermagem lll (2022)', 'Urgências e Emergências Médicas I (2022)', 'HGNI | Acolhimento e Classificação de Risco (2022)', 'Consórcios Públicos (2022)', 'Capacitação para Enfermagem l (2023)', 'Urgências e Emergências Médicas II (2023)', 'TARM (2023)', 'Atualização da Prática Clinica da Enfermagem (2023)', 'Cuidador em Saúde Mental (2024)', 'TARM (2024)', 'Curso APH(2024)', 'Eletrocardiografia Básico (2024)', 'Curso Infecto(2024)', 'Curso Primeiros Socorros - Lei Lucas(2025)', 'Curso APH(2025)', 'AGORA TEM ESPECIALISTAS -  ONCOLOGIA', 'AGORA TEM ESPECIALISTAS -  CARDIOLOGIA', 'AGORA TEM ESPECIALISTAS -  OFTALMOLOGIA'];
-let inscritos = [112, 182, 734, 54, 528, 528, 528, 613, 409, 305, 96, 219, 391, 232, 54, 634, 383, 19, 1231, 313, 563, 1340, 1371, 206, 221, 38 ];
- let certificados = [54, 54, 469, 50, 294, 377, 417, 234, 287, 221, 32, 125, 237, 133, 50, 306, 283, 18, 815, 92, 348, 878, 912, 77, 81, 15 ];
+ let labels = ['Téc de Enfermagem l (2020)', 'Cuidador em Saúde Mental (2020)', 'ACS | Agentes Comunitários de Saúde(2020)', 'TARM (2021)', 'Base SAMU 192 (2021) - Módulo I', 'Base SAMU 192 (2021) - Módulo II', 'Base SAMU 192 (2021) - Módulo III', 'Téc de Enfermagem ll (2021)', 'Téc de Enfermagem lll (2022)', 'Urgências e Emergências Médicas I (2022)', 'HGNI | Acolhimento e Classificação de Risco (2022)', 'Consórcios Públicos (2022)', 'Capacitação para Enfermagem l (2023)', 'Urgências e Emergências Médicas II (2023)', 'TARM (2023)', 'Atualização da Prática Clinica da Enfermagem (2023)', 'Cuidador em Saúde Mental (2024)', 'TARM (2024)', 'Curso APH(2024)', 'Eletrocardiografia Básico (2024)', 'Curso Infecto(2024)', 'Curso Primeiros Socorros - Lei Lucas(2025)', 'Curso APH(2025)', 'AGORA TEM ESPECIALISTAS -  ONCOLOGIA', 'AGORA TEM ESPECIALISTAS -  CARDIOLOGIA', 'AGORA TEM ESPECIALISTAS -  OFTALMOLOGIA', 'AGORA TEM ESPECIALISTAS -  ORTOPEDIA' ];
+let inscritos = [112, 182, 734, 54, 528, 528, 528, 613, 409, 305, 96, 219, 391, 232, 54, 634, 383, 19, 1231, 313, 563, 1340, 1371, 209, 223, 40, 9 ];
+ let certificados = [54, 54, 469, 50, 294, 377, 417, 234, 287, 221, 32, 125, 237, 133, 50, 306, 283, 18, 815, 92, 348, 878, 912, 77, 81, 15, 1 ];
         
 const alunosChart = new Chart(ctx, {
  type: 'bar',
@@ -77,7 +77,7 @@ plugins: [ChartDataLabels] // Ativa o plugin
 
 //gráfico de mapa//
 var data = [
-    ['br-sp', 26], ['br-mg', 23], ['br-rj', 6400], ['br-ba', 6], ['br-go', 2],
+    ['br-sp', 30], ['br-mg', 23], ['br-rj', 6400], ['br-ba', 6], ['br-go', 2],
     ['br-ce', 7], ['br-df', 2], ['br-es', 3], ['br-ms', 3],, ['br-al', 5],['br-pi', 3],['br-am', 7],
     ['br-pa', 6], ['br-pb', 2],['br-pe', 4], ['br-pr', 8], ['br-rn', 5], ['br-ac', 2],
     ['br-ro', 2], ['br-rs', 15], ['br-se', 2], ['br-to', 3], ['br-ap', 1],['br-sc', 2],
