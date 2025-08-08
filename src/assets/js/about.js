@@ -4,8 +4,8 @@
 
 const ctx = document.getElementById('alunosChart').getContext('2d');
  let labels = ['Téc de Enfermagem l (2020)', 'Cuidador em Saúde Mental (2020)', 'ACS | Agentes Comunitários de Saúde(2020)', 'TARM (2021)', 'Base SAMU 192 (2021) - Módulo I', 'Base SAMU 192 (2021) - Módulo II', 'Base SAMU 192 (2021) - Módulo III', 'Téc de Enfermagem ll (2021)', 'Téc de Enfermagem lll (2022)', 'Urgências e Emergências Médicas I (2022)', 'HGNI | Acolhimento e Classificação de Risco (2022)', 'Consórcios Públicos (2022)', 'Capacitação para Enfermagem l (2023)', 'Urgências e Emergências Médicas II (2023)', 'TARM (2023)', 'Atualização da Prática Clinica da Enfermagem (2023)', 'Cuidador em Saúde Mental (2024)', 'TARM (2024)', 'Curso APH(2024)', 'Eletrocardiografia Básico (2024)', 'Curso Infecto(2024)', 'Curso Primeiros Socorros - Lei Lucas(2025)', 'Curso APH(2025)', 'AGORA TEM ESPECIALISTAS -  ONCOLOGIA', 'AGORA TEM ESPECIALISTAS -  CARDIOLOGIA', 'AGORA TEM ESPECIALISTAS -  OFTALMOLOGIA', 'AGORA TEM ESPECIALISTAS -  ORTOPEDIA' ];
-let inscritos = [112, 182, 734, 54, 528, 528, 528, 613, 409, 305, 96, 219, 391, 232, 54, 634, 383, 19, 1231, 313, 563, 1340, 1371, 230, 232, 50, 27 ];
- let certificados = [54, 54, 469, 50, 294, 377, 417, 234, 287, 221, 32, 125, 237, 133, 50, 306, 283, 18, 815, 92, 348, 878, 912, 88, 85, 24, 11 ];
+let inscritos = [112, 182, 734, 54, 528, 528, 528, 613, 409, 305, 96, 219, 391, 232, 54, 634, 383, 19, 1231, 313, 563, 1340, 1371, 234, 243, 53, 33 ];
+ let certificados = [54, 54, 469, 50, 294, 377, 417, 234, 287, 221, 32, 125, 237, 133, 50, 306, 283, 18, 815, 92, 348, 878, 912, 90, 86, 27, 13 ];
         
 const alunosChart = new Chart(ctx, {
  type: 'bar',
