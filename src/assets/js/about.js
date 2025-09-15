@@ -77,10 +77,10 @@ plugins: [ChartDataLabels] // Ativa o plugin
 
 //gráfico de mapa//
 var data = [
-    ['br-sp', 30], ['br-mg', 23], ['br-rj', 6400], ['br-ba', 6], ['br-go', 2],
-    ['br-ce', 7], ['br-df', 2], ['br-es', 3], ['br-ms', 3],, ['br-al', 5],['br-pi', 3],['br-am', 7],
-    ['br-pa', 6], ['br-pb', 2],['br-pe', 4], ['br-pr', 8], ['br-rn', 5], ['br-ac', 2],
-    ['br-ro', 2], ['br-rs', 15], ['br-se', 2], ['br-to', 3], ['br-ap', 1],['br-sc', 2],
+    ['br-sp', 52], ['br-mg', 44], ['br-rj', 6500], ['br-ba', 13], ['br-go', 4],
+    ['br-ce', 27], ['br-df', 4], ['br-es', 11], ['br-ms', 10], ['br-al', 5],['br-pi', 4],['br-am', 10],
+    ['br-pa', 17], ['br-pb', 11],['br-pe', 10], ['br-pr', 16], ['br-rn', 6], ['br-ac', 2],
+    ['br-ro', 16], ['br-rs', 17], ['br-se', 3], ['br-to', 27], ['br-ap', 2],['br-sc', 9],,['br-ma', 2],
     ['br-vazio', 250] // Para estados com valores vazios, se necessário
 ];
 
