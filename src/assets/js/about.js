@@ -4,8 +4,8 @@
 
 const ctx = document.getElementById('alunosChart').getContext('2d');
  let labels = ['Téc de Enfermagem l (2020)', 'Cuidador em Saúde Mental (2020)', 'ACS | Agentes Comunitários de Saúde(2020)', 'TARM (2021)', 'Base SAMU 192 (2021) - Módulo I', 'Base SAMU 192 (2021) - Módulo II', 'Base SAMU 192 (2021) - Módulo III', 'Téc de Enfermagem ll (2021)', 'Téc de Enfermagem lll (2022)', 'Urgências e Emergências Médicas I (2022)', 'HGNI | Acolhimento e Classificação de Risco (2022)', 'Consórcios Públicos (2022)', 'Capacitação para Enfermagem l (2023)', 'Urgências e Emergências Médicas II (2023)', 'TARM (2023)', 'Atualização da Prática Clinica da Enfermagem (2023)', 'Cuidador em Saúde Mental (2024)', 'TARM (2024)', 'Curso APH(2024)', 'Eletrocardiografia Básico (2024)', 'Curso Infecto(2024)', 'Curso Primeiros Socorros - Lei Lucas(2025)', 'Curso APH(2025)', 'AGORA TEM ESPECIALISTAS -  ONCOLOGIA', 'AGORA TEM ESPECIALISTAS -  CARDIOLOGIA', 'AGORA TEM ESPECIALISTAS -  OFTALMOLOGIA', 'AGORA TEM ESPECIALISTAS -  ORTOPEDIA', 'Curso de Sinais Vitais e Escala de Glasgow (2025)' ];
-let inscritos = [112, 182, 734, 54, 528, 528, 528, 613, 409, 305, 96, 219, 391, 232, 54, 634, 383, 19, 1231, 313, 563, 1340, 1371, 256, 274, 58, 54, 547 ];
- let certificados = [54, 54, 469, 50, 294, 377, 417, 234, 287, 221, 32, 125, 237, 133, 50, 306, 283, 18, 815, 92, 348, 878, 912, 100, 95, 31, 22, 240 ];
+let inscritos = [112, 182, 734, 54, 528, 528, 528, 613, 409, 305, 96, 219, 391, 232, 54, 634, 383, 19, 1231, 313, 563, 1340, 1371, 272, 299, 71, 77, 727 ];
+ let certificados = [54, 54, 469, 50, 294, 377, 417, 234, 287, 221, 32, 125, 237, 133, 50, 306, 283, 18, 815, 92, 348, 878, 912, 107, 106, 37, 32, 362 ];
         
 const alunosChart = new Chart(ctx, {
  type: 'bar',
@@ -69,9 +69,9 @@ plugins: [ChartDataLabels] // Ativa o plugin
  }
  // Criar contadores com diferentes configurações
  createCounter('counter1', 1, 1, 20, 172);
- createCounter('counter2', 1000, 50, 7100, 50);
+ createCounter('counter2', 1000, 50, 7300, 50);
  createCounter('counter3', 10, 1, 180, 30);
- createCounter('counter4', 1000, 100, 9000, 70);
+ createCounter('counter4', 1000, 100, 9200, 70);
 
 
 
