@@ -10,51 +10,18 @@
     <title>CISBAF - NEP</title>
 </head>
 <body>
-       <header>
-        <a href="index.html">
-        <img class="logo" src="./assets/midia/BANNER_SITE_NOVA_LOGO.png" 
-             onmouseover="this.style.transform='scale(1.2)'" 
-             onmouseout="this.style.transform='scale(1)'" 
-             style="transform: scale(1); transition: transform 0.3s;">
-        </a>
-        <div id="mainhead">
-                <a href="index.html">Página Inicial</a>
-                <a href="about.html">Sobre o NEP</a>
-                <a href="index.html#container">Catálogo de Cursos</a>
-            <a href="https://plataforma.cisbaf.org.br/mod/page/view.php?id=566">Perguntas Frequentes</a>
-               <a href="timeline.html">História do NEP</a>
-               <a href="https://api.whatsapp.com/send/?phone=5521968843062&text&type=phone_number&app_absent=0" target="_blank">Fale conosco</a>
-            <a href="https://plataforma.cisbaf.org.br/my/" ><button class="btnAcess">Entrar</button></a>
-        </div>
+     <!--Header-->
+     <site-header></site-header>
+
+     <!-- Menu lateral -->
+     <side-menu></side-menu>
     
-        <!-- Ícone do menu hamburguer -->
-        <div class="menu-icon" onclick="toggleMenu()">☰</div>
-    </header>
-    
-    <!-- Menu lateral -->
-    <div class="side-menu" id="sideMenu">
-        <button class="close-btn" onclick="toggleMenu()">✖</button>
-            <a href="index.html"><img class="logo" src="./assets/midia/BANNER_SITE_NOVA_LOGO.png" style="width: 200px;"></a>
-            <a href="index.html">Página Inicial</a>
-           <a href="about.html">Sobre o NEP</a>
-            <a href="#container">Catálogo de Cursos</a>
-         <a href="https://plataforma.cisbaf.org.br/mod/page/view.php?id=566">Perguntas Frequentes</a>
-                <a href="timeline.html">História do NEP</a>
-            <a href="https://api.whatsapp.com/send/?phone=5521968843062" target="_blank">Fale conosco</a>
-        <a href="https://plataforma.cisbaf.org.br/my/" ><button class="btnAcess">Entrar</button></a>
-    </div>
      <div id="overlay" class="overlay"></div>
 
      <div class="videoContainer">
         <video class="elementor-background-video-hosted" autoplay muted playsinline loop src="./assets/midia/IntroZ.mp4"></video></div>
 
-    <!-- <div class="bannerCentro">
-        <div class="bannerText">
-        <h2>PLATAFORMA CISBAF - NEP</h2><br>
-        <h3>A plataforma do Núcleo de Educação Permanente do CISBAF oferece cursos variados 100% online e gratuitos para profissionais de diversas áreas da saúde.</h3>
-        </div>
-        <img  src="bannerCentro.png" alt="">
-    </div> -->
+   
     <main>
         <div class="carrox">
             <div class="carrossel">
@@ -473,29 +440,14 @@
 
 
                 </div>
-            </div>
-
-
-
-
-
-
-
-
-       
+            </div>       
         
     </main>
     <img class="midianep" src="./assets/midia/midianep.png">
     <button id="backToTop" class="back-to-top">↑</button>
 </body>
 <script src="./assets/js/index.js"></script>
-<footer>
-        <a href="index.html"><img id="imgfoot" src="./assets/midia/BANNER_SITE_NOVA_LOGO.png" alt=""></a>
-    <div class="icons">
-        <a href="https://www.instagram.com/cisbaf?igsh=YjZ4YjBlNGhhdW9z" target="_blank"><img src="./assets/midia/instagram.png"  alt=""></a>
-        <a href="https://api.whatsapp.com/send/?phone=5521968843062&text&type=phone_number&app_absent=0" target="_blank"><img src="./assets/midia/whatsapp.png" alt=""></a>
-    </div>
-    <p><b>Cisbaf - Nep © 2025 - Todos os direitos reservados</b></p>
-   
-</footer>
+<script src="./assets/js/component.js"></script>
+<foot-main></foot-main>
+
 </html>

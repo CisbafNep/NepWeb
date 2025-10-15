@@ -11,39 +11,12 @@
 </head>
 
 <body>
-    <header>
-        <a href="index.html">
-            <img class="logo" src="./assets/midia/BANNER_SITE_NOVA_LOGO.png"
-                onmouseover="this.style.transform='scale(1.2)'" onmouseout="this.style.transform='scale(1)'"
-                style="transform: scale(1); transition: transform 0.3s;">
-        </a>
-        <div id="mainhead">
-            <a href="index.html">Página Inicial</a>
-            <a href="about.html">Sobre o NEP</a>
-            <a href="index.html#container">Catálogo de Cursos</a>
-            <a href="https://plataforma.cisbaf.org.br/mod/page/view.php?id=566">Perguntas Frequentes</a>
-            <a href="timeline.html">História do NEP</a>
-            <a href="https://api.whatsapp.com/send/?phone=5521968843062&text&type=phone_number&app_absent=0"
-                target="_blank">Fale conosco</a>
-            <a href="https://plataforma.cisbaf.org.br/my/"><button class="btnAcess">Entrar</button></a>
-        </div>
+  <!--Header-->
+  <site-header></site-header>
 
-        <!-- Ícone do menu hamburguer -->
-        <div class="menu-icon" onclick="toggleMenu()">☰</div>
-    </header>
+  <!-- Menu lateral -->
+  <side-menu></side-menu>
 
-    <!-- Menu lateral -->
-    <div class="side-menu" id="sideMenu">
-        <button class="close-btn" onclick="toggleMenu()">✖</button>
-        <a href="index.html"><img class="logo" src="./assets/midia/BANNER_SITE_NOVA_LOGO.png" style="width: 200px;"></a>
-        <a href="index.html">Página Inicial</a>
-        <a href="about.html">Sobre o NEP</a>
-        <a href="index.html#container">Catálogo de Cursos</a>
-        <a href="https://plataforma.cisbaf.org.br/mod/page/view.php?id=566">Perguntas Frequentes</a>
-        <a href="timeline.html">História do NEP</a>
-        <a href="https://api.whatsapp.com/send/?phone=5521968843062" target="_blank">Fale conosco</a>
-        <a href="https://plataforma.cisbaf.org.br/my/"><button class="btnAcess">Entrar</button></a>
-    </div>
     <div id="overlay" class="overlay"></div>
 
     <!--------------------------------------------------------------------------------------------------------------------->
@@ -715,7 +688,10 @@
 
 
 
+    <script src="./assets/js/component.js"></script>
 
+    <foot-main></foot-main>
+    
 
     <script>
         // Captura o parâmetro da URL
