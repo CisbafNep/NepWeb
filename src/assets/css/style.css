@@ -323,7 +323,7 @@ header a {
 .carrossel {
   position: relative;
   width: 100%;
-  max-width: 1050px;
+  max-width: 950px;
   overflow: hidden;
   border: 2px solid #ddd;
   border-radius: 6px;
