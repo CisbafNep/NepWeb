@@ -69,9 +69,9 @@ plugins: [ChartDataLabels] // Ativa o plugin
  }
  // Criar contadores com diferentes configurações
  createCounter('counter1', 1, 1, 30, 172);
- createCounter('counter2', 1000, 50, 7800, 50);
+ createCounter('counter2', 1000, 50, 8000, 50);
  createCounter('counter3', 10, 1, 180, 30);
- createCounter('counter4', 1000, 100, 9600, 70);
+ createCounter('counter4', 1000, 100, 9800, 70);
 
 
 

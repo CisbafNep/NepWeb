@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" type="image/x-icon" href="./assets/midia/favicon_cisbaf.png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+    <title>CISBAF - NEP</title>
+</head>
+<style>
+    body{
+        background-color: #d8d7d7;
+    }
+</style>
+<body>
+    <!--Header-->
+    <site-header></site-header>
+
+    <!-- Menu lateral -->
+    <side-menu></side-menu>
+
+    <div id="overlay" class="overlay"></div>
+
+    <div>            
+        <div class="container">
+    </div>
+    <main>
+
+
+        <!--ANOS ANTERIORES-->
+
+
+        <div style="background: #d8d7d7; height: 100%;">
+            
+            <h1 style="margin-top: 20px; text-align: center;"><span style="color: brown; text-decoration: underline;" id="container">CATÁLOGO</span>
+                <span style="color: darkgoldenrod; text-decoration: underline">DE CURSOS</span></h1> </h1> <br><br>
+            <div class="btnYear">
+                <button onclick="filtrarAno('todos')">TODOS OS PERÍODOS</button>
+                <button onclick="filtrarAno('2020')">2020</button>
+                <button onclick="filtrarAno('2021')">2021</button>
+                <button onclick="filtrarAno('2022')">2022</button>
+                <button onclick="filtrarAno('2023')">2023</button>
+                <button onclick="filtrarAno('2024')">2024</button>
+                <button onclick="filtrarAno('2025')">2025</button>
+                <!-- <button onclick="filtrarAno('2026')">2026</button> -->
+            </div>
+
+            <div class="container">
+
+                <div class="card ano2025">
+                    <img src="./assets/midia/logo_fundEnf.png" alt="Curso Sinais Vitais">
+                    <div class="card-past">
+                        <h4>Curso de Atualização em Fundamentos de Enfermagem</h4><br>
+                        <p><b>Período do curso:</b> <br>2025</p>
+                        <p><b>Disponibilidade</b> <br>Indisponível.</p>
+                        <a href="past1.html?tema=fundEnf2025">Saiba mais</a>
+
+                    </div>
+                </div>
+
+                <div class="card ano2025">
+                    <img src="./assets/midia/Sinais Vitais img.png" alt="Curso Sinais Vitais">
+                    <div class="card-past">
+                        <h4>Curso de Atualização da Técnica de Aferição dos Sinais Vitais e Escala de Glasgow</h4><br>
+                        <p><b>Período do curso:</b> <br>2025</p>
+                        <p><b>Disponibilidade</b> <br>Indisponível.</p>
+                        <a href="past3.html?tema=sinVit2025">Saiba mais</a>
+
+                    </div>
+                </div>
+
+
+                <div class="card ano2025">
+                    <img src="./assets/midia/logo_aph.png">
+                    <div class="card-past">
+                        <h4>Atualização para Profissionais no Atendimento Pré Hospitalar(2025)</h4><br>
+                        <p><b>Período do curso:</b> <br>2025</p>
+                        <p><b>Disponibilidade</b> <br>Indisponível.</p>
+                        <a href="past1.html?tema=aph25">Saiba mais</a>
+
+                    </div>
+                </div>
+
+                <div class="card ano2025">
+                    <img src="./assets/midia/logo_leilucas.png" alt="Curso Lei Lucas">
+                    <div class="card-past">
+                        <h4>Curso Primeiros Socorros com Ênfase na Lei Lucas(2025)</h4><br>
+                        <p><b>Período do curso:</b> <br>2025</p>
+                        <p><b>Disponibilidade</b> <br>Indisponível.</p>
+                        <a href="past2.html?tema=leiluc25">Saiba mais</a>
+
+                    </div>
+                </div>
+
+                <div class="card ano2024">
+                    <img src="./assets/midia/logoCard/logoInfecto.png">
+                    <div class="card-past">
+                        <h4>Curso de Atualização em Doenças Infecto Contagiosas(2024)</h4><br>
+                        <p><b>Período do curso:</b> <br>2024</p>
+                        <p><b>Disponibilidade</b> <br>Indisponível.</p>
+                        <a href="past3.html?tema=infec2024">Saiba mais</a>
+
+                    </div>
+                </div>
+                <div class="card ano2024">
+                    <img src="./assets/midia/logoCard/logo_Eletro.png">
+                    <div class="card-past">
+                        <h4>Curso de Eletrocardiografia Básico(2024)</h4><br>
+                        <p><b>Período do curso:</b> <br>2024</p>
+                        <p><b>Disponibilidade</b> <br>Indisponível.</p>
+                        <a href="past1.html?tema=eletro24">Saiba mais</a>
+
+                    </div>
+                </div>
+                <div class="card ano2024">
+                    <img src="./assets/midia/logo_aph.png">
+                    <div class="card-past">
+                        <h4>Atualização para Profissionais no Atendimento Pré Hospitalar(2024)</h4><br>
+                        <p><b>Período do curso:</b> <br>2024</p>
+                        <p><b>Disponibilidade</b> <br>Indisponível.</p>
+                        <a href="past2.html?tema=aph24">Saiba mais</a>
+
+                    </div>
+                </div>
+                <div class="card ano2024">
+                    <img src="./assets/midia/logo_curso_tarm_2.png">
+                    <div class="card-past">
+                        <h4>Curso Introdutório para Técnico Auxiliar em Regulação Médica e Operador de Frota - CRUR
+                            Baixada Fluminense(2024)</h4><br>
+                        <p><b>Período do curso:</b> <br>2024</p>
+                        <p><b>Disponibilidade</b> <br>Indisponível.</p>
+                        <a href="past3.html?tema=tarm24">Saiba mais</a>
+
+                    </div>
+                </div>
+                <div class="card ano2024">
+                    <img src="./assets/midia/logoCard/logo_sauMent.png">
+                    <div class="card-past">
+                        <h4>Cuidador em Saúde Mental (2024)</h4><br>
+                        <p><b>Período do curso:</b> <br>2024</p>
+                        <p><b>Disponibilidade</b> <br>Indisponível.</p>
+                        <a href="past1.html?tema=sauMent24">Saiba mais</a>
+
+                    </div>
+                </div>
+                <div class="card ano2023">
+                    <img src="./assets/midia/logoCard/logo_pratEnf.png">
+                    <div class="card-past">
+                        <h4>Atualização da Prática Clinica da Enfermagem (2023)</h4><br>
+                        <p><b>Período do curso:</b> <br>2023</p>
+                        <p><b>Disponibilidade</b> <br>Indisponível.</p>
+                        <a href="past2.html?tema=pratClin23">Saiba mais</a>
+
+                    </div>
+                </div>
+                <div class="card ano2023">
+                    <img src="./assets/midia/logo_curso_tarm_2.png">
+                    <div class="card-past">
+                        <h4>Curso Introdutório para Técnico Auxiliar em Regulação Médica e Operador de Frota - CRUR
+                            Baixada Fluminense (2023)</h4><br>
+                        <p><b>Período do curso:</b> <br>2023</p>
+                        <p><b>Disponibilidade</b> <br>Indisponível.</p>
+                        <a href="past3.html?tema=tarm23">Saiba mais</a>
+
+                    </div>
+                </div>
+                <div class="card ano2023">
+                    <img src="./assets/midia/logoCard/logo_urgEmer.png">
+                    <div class="card-past">
+                        <h4>Urgências e Emergências Médicas II (2023)</h4><br>
+                        <p><b>Período do curso:</b> <br>2023</p>
+                        <p><b>Disponibilidade</b> <br>Indisponível.</p>
+                        <a href="past1.html?tema=urgEm23">Saiba mais</a>
+
+                    </div>
+                </div>
+                <div class="card ano2023">
+                    <img src="./assets/midia/logoCard/logo_capacEnf.png">
+                    <div class="card-past">
+                        <h4>Capacitação para Enfermagem l (2023)</h4><br>
+                        <p><b>Período do curso:</b> <br>2023</p>
+                        <p><b>Disponibilidade</b> <br>Indisponível.</p>
+                        <a href="past2.html?tema=capEnf23">Saiba mais</a>
+
+                    </div>
+                </div>
+                <div class="card ano2022">
+                    <img src="./assets/midia/logoCard/logo_conPub.png">
+                    <div class="card-past">
+                        <h4>Consórcios Públicos (2022)</h4><br>
+                        <p><b>Período do curso:</b> <br>2022</p>
+                        <p><b>Disponibilidade</b> <br>Indisponível.</p>
+                        <a href="past3.html?tema=consorcio22">Saiba mais</a>
+
+                    </div>
+                </div>
+                <div class="card ano2022">
+                    <img src="./assets/midia/logoCard/logo_acoClass.png">
+                    <div class="card-past">
+                        <h4>HGNI | Acolhimento e Classificação de Risco (2022)</h4><br>
+                        <p><b>Período do curso:</b> <br>2022</p>
+                        <p><b>Disponibilidade</b> <br>Indisponível.</p>
+                        <a href="past1.html?tema=hgni22">Saiba mais</a>
+
+                    </div>
+                </div>
+                <div class="card ano2022">
+                    <img src="./assets/midia/logoCard/logo_urgEmer.png">
+                    <div class="card-past">
+                        <h4>Urgências e Emergências Médicas I (2022)</h4><br>
+                        <p><b>Período do curso:</b> <br>2022</p>
+                        <p><b>Disponibilidade</b> <br>Indisponível.</p>
+                        <a href="past2.html?tema=urgEm22">Saiba mais</a>
+
+                    </div>
+                </div>
+                <div class="card ano2022">
+                    <img src="./assets/midia/logoCard/logo_cuiEnf.png">
+                    <div class="card-past">
+                        <h4>Atualização nos Procedimentos para Téc. Enfermagem lll (2022)</h4><br>
+                        <p><b>Período do curso:</b> <br>2022</p>
+                        <p><b>Disponibilidade</b> <br>Indisponível.</p>
+                        <a href="past3.html?tema=capEnf22">Saiba mais</a>
+
+                    </div>
+                </div>
+                <div class="card ano2021">
+                    <img src="./assets/midia/logoCard/logo_cuiEnf.png">
+                    <div class="card-past">
+                        <h4>Atualização nos Procedimentos para Téc. Enfermagem ll (2021)</h4><br>
+                        <p><b>Período do curso:</b> <br>2021</p>
+                        <p><b>Disponibilidade</b> <br>Indisponível.</p>
+                        <a href="past1.html?tema=capEnf21">Saiba mais</a>
+
+                    </div>
+                </div>
+                <div class="card ano2021">
+                    <img src="./assets/midia/logoCard/logo_samu2021.png">
+                    <div class="card-past">
+                        <h4>Base SAMU 192 (2021)</h4><br>
+                        <p><b>Período do curso:</b> <br>2021</p>
+                        <p><b>Disponibilidade</b> <br>Indisponível.</p>
+                        <a href="past2.html?tema=samu21">Saiba mais</a>
+
+                    </div>
+                </div>
+                <div class="card ano2020">
+                    <img src="./assets/midia/logoCard/logo_acs2021.png">
+                    <div class="card-past">
+                        <h4>ACS | Agentes Comunitários de Saúde(2020)</h4><br>
+                        <p><b>Período do curso:</b> <br>2020</p>
+                        <p><b>Disponibilidade</b> <br>Indisponível.</p>
+                        <a href="past3.html?tema=acs20">Saiba mais</a>
+
+                    </div>
+                </div>
+                <div class="card ano2020">
+                    <img src="./assets/midia/logoCard/logo_sauMent.png">
+                    <div class="card-past">
+                        <h4>Cuidador em Saúde Mental (2020)</h4><br>
+                        <p><b>Período do curso:</b> <br>2020</p>
+                        <p><b>Disponibilidade</b> <br>Indisponível.</p>
+                        <a href="past1.html?tema=sauMent20">Saiba mais</a>
+
+                    </div>
+                </div>
+                <div class="card ano2020">
+                    <img src="./assets/midia/logoCard/logo_cuiEnf.png">
+                    <div class="card-past">
+                        <h4>Cuidados de Enfermagem na Atenção Básica Téc. Enfermagem l (2020)</h4><br>
+                        <p><b>Período do curso:</b> <br>2020</p>
+                        <p><b>Disponibilidade</b> <br>Indisponível.</p>
+                        <a href="past2.html?tema=cuiEnf20">Saiba mais</a>
+
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+
+    </main>
+    <button id="backToTop" class="back-to-top">↑</button>
+</body>
+<script src="./assets/js/index.js"></script>
+<script src="./assets/js/component.js"></script>
+<foot-main></foot-main>
+
+</html>

@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="./assets/midia/favicon_cisbaf.png">
+  <link rel="stylesheet" href="./assets/css/pills.css">
+  <title>Pílulas de Conhecimento</title>
+</head>
+<body>
+   <!--Header-->
+   <site-header></site-header>
+    <!-- Menu lateral -->
+    <side-menu></side-menu>
+   
+  <div style="text-align: center; margin-top: 10px;">
+    <p><span><img src="./assets/midia/logoNep.png" width="120px" alt=""></span></p>
+      <h1 style="color: rgb(54, 45, 45);"> Pílulas de Conhecimento</h1>
+  <h4 style="color: rgb(54, 45, 45);">Mini aulas rápidas, diretas e com conteúdo visual + resumo.</h4><br>
+  </div>
+  <main class="container">
+
+    <!-- FILTRO DE CATEGORIAS (opcional) -->
+    <!-- <div class="filter">
+      <button class="active" data-cat="all">Todos</button>
+      <button data-cat="avc">AVC</button>
+      <button data-cat="desmaio">Desmaio</button>
+      <button data-cat="js">JavaScript</button>
+      <button data-cat="outros">Outros</button>
+    </div> -->
+
+    <section class="grid" id="cards">
+
+      <!-- MODELO DE CARD — DUPLIQUE PARA ADD NOVAS PÍLULAS -->
+      <article class="lesson" data-cat="avc">
+        <div class="thumb">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/VUG3_0BFp7k?si=kc2Pnpld1seUfUFG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="meta">
+          <span class="tag">AVC</span>
+          <h3>AVC: reconhecer para salvar</h3>
+          <p>O Acidente Vascular Cerebral é mais comum do que parece — e identificar seus sinais é mais simples do que muita gente imagina. Veja como reconhecer e agir.</p>
+        </div>
+      </article>
+
+      <!-- DUPLIQUE AQUI MAIS CARDS -->
+
+      <article class="lesson" data-cat="desmaio">
+        <div class="thumb">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/rp2e6b9dZlc?si=6y0vRWpWlr-Tm3E9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="meta">
+          <span class="tag">Desmaio</span>
+          <h3>Lidando com desmaios</h3>
+          <p>Saber lidar com um desmaio é uma habilidade simples, mas essencial. Descubra como agir de forma rápida, segura e eficaz.</p>
+        </div>
+      </article>
+
+
+
+      
+    </section>
+  </main>
+  <br><br><br>
+</body>
+
+  <script src="./assets/js/pills.js"></script>
+  <script src="./assets/js/component.js"></script>
+  <foot-main></foot-main>
+</html>
