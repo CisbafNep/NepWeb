@@ -124,7 +124,7 @@ const respostas = [
     texto: "Tchau! 👋 Qualquer dúvida só chamar!"
 },
 {
-  palavras: ["curso aberto", "curso disponível", "curso disponivel", "aberto", "disponivel", "disponível","andamento"],
+  palavras: ["curso aberto", "curso disponível", "curso disponivel", "aberto", "disponivel", "disponível","andamento", "atual", "atualmente"],
     texto: "Nossos cursos abertos estão disponíveis em <b>CURSOS EM ANDAMENTO</b>. Para mais informações basta clicar em 'saiba mais' no card do curso."
 },
 {
