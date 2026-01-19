@@ -172,7 +172,7 @@ input.addEventListener("keypress", e => {
 /* Mensagem inicial */
 messages.innerHTML = `
   <div class="msg bot">
-    <img src="/assets/midia/Robotnep.gif">
+    <img src="./assets/midia/Robotnep.gif">
     <span>Olá! Sou o CyberNep! 👋 Posso lhe ajudar com perguntas frequentes sobre os cursos da plataforma.</span>
   </div>
 `;
