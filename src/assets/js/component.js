@@ -50,7 +50,7 @@ class Footers extends HTMLElement {
         <a href="https://www.instagram.com/cisbaf?igsh=YjZ4YjBlNGhhdW9z" target="_blank"><img src="./assets/midia/instagram.png"  alt=""></a>
         <a href="https://api.whatsapp.com/send/?phone=5521968843062&text&type=phone_number&app_absent=0" target="_blank"><img src="./assets/midia/whatsapp.png" alt=""></a>
     </div>
-    <p><b>Cisbaf - Nep © 2025 - Todos os direitos reservados</b></p>
+    <p><b>Cisbaf - Nep © 2026 - Todos os direitos reservados</b></p>
    
 </footer>
         `
