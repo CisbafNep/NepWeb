@@ -75,12 +75,12 @@ window.addEventListener('DOMContentLoaded', () => {
 });
 
 /* IMAGENS */
-const backgrounds = [
-  "./assets/midia/midianepCursos.png",
-  "./assets/midia/midianepOCI.png",
-  "./assets/midia/midianepProtoc.png",
-  "./assets/midia/nepPills.png"
-];
+// const backgrounds = [
+//   "./assets/midia/midianepCursos.png",
+//   "./assets/midia/midianepOCI.png",
+//   "./assets/midia/midianepProtoc.png",
+//   "./assets/midia/nepPills.png"
+// ];
 
 const hero = document.getElementById("heroy");
 const btnSaibaMais = document.getElementById("btnSaibaMais");
