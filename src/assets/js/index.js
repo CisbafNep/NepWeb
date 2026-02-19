@@ -78,7 +78,7 @@ window.addEventListener('DOMContentLoaded', () => {
 const backgrounds = [
   "./assets/midia/midianepCursos.png",
   "./assets/midia/midianepOCI.png",
-  "./assets/midia/mapaHist2.png",
+  "./assets/midia/midianepProtoc.png",
   "./assets/midia/nepPills.png"
 ];
 
@@ -101,4 +101,5 @@ document.querySelectorAll(".sidebars a").forEach(link => {
     btnSaibaMais.href = linkDestino;
   });
 });
+
 
