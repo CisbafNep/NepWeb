@@ -87,7 +87,7 @@ var data = [
     ['br-rj', 6855], ['br-mg', 67], ['br-sp', 108], ['br-pr', 30], ['br-rs', 39], ['br-ro', 22], ['br-pa', 67],
     ['br-to', 31], ['br-ba', 68], ['br-es', 16], ['br-rn', 9], ['br-df', 12], ['br-ms', 12], ['br-pb', 19],
     ['br-pe', 27], ['br-ce', 188],['br-al', 7],['br-se', 8], ['br-ap', 2], ['br-go', 21],['br-pi', 11],
-    ['br-sc', 18], ['br-am', 15], ['br-ma', 16], ['br-ac', 8], ['br-mt', 5],
+    ['br-sc', 18], ['br-am', 15], ['br-ma', 16], ['br-ac', 8], ['br-mt', 13],['br-rr', 1],
     ['br-vazio', 2500] // Caso queira manter para valores não identificados
 ];
 
