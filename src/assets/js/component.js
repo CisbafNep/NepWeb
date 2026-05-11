@@ -24,6 +24,48 @@ class headSite extends HTMLElement {
 }
 customElements.define("site-header", headSite);
 
+class popUp extends HTMLElement {
+    connectedCallback() {
+        this.innerHTML = `
+            <div id="popupAviso" class="popup-overlay">
+                <div class="popup-box">
+
+                    <button class="close-popup">X</button>
+
+                    <h2>📢 Curso disponível</h2>
+
+                    <p>
+                        Já está no ar o curso
+                        <strong>“Atualização para Profissionais no Atendimento Pré Hospitalar (2026)”</strong>.
+                    </p>
+
+                    <a href="https://cursosonline.nep.cisbaf.org.br/cursoAPH26.html" class="popup-btn">
+                        Clique e saiba mais
+                    </a>
+
+                </div>
+            </div>
+        `;
+
+        const popup = this.querySelector("#popupAviso");
+        const closeBtn = this.querySelector(".close-popup");
+
+        // Fecha no X
+        closeBtn.addEventListener("click", () => {
+            popup.style.display = "none";
+        });
+
+        // Fecha clicando fora
+        popup.addEventListener("click", (e) => {
+            if (e.target === popup) {
+                popup.style.display = "none";
+            }
+        });
+    }
+}
+customElements.define("up-pop", popUp);
+
+
 class menuSide extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
@@ -81,3 +123,4 @@ class Nepbot extends HTMLElement {
     }
 }
 customElements.define("nep-bot", Nepbot);
+
