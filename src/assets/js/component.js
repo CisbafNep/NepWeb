@@ -32,18 +32,18 @@ class popUp extends HTMLElement {
 
                     <button class="close-popup">X</button>
 
-                    <h2>📢 Curso disponível</h2>
+                    <h2>📢 Curso disponível em breve</h2>
 
                     <p>
-                        Já está no ar o curso
-                        <strong>“Atualização para Profissionais no Atendimento Pré Hospitalar (2026)”</strong>.
+                        Em breve estará no ar o curso livre de
+                        <strong>“Aprimoramento Profissional em Técnicas de Enfermagem”</strong>.
                     </p>
 
-                    <a href="https://cursosonline.nep.cisbaf.org.br/cursoAPH26.html" class="popup-btn">
+                    <a href="https://cursosonline.nep.cisbaf.org.br/cursoAprimo26.html" class="popup-btn">
                         Clique e saiba mais
                     </a>
 
-                </div>
+                </div> 
             </div>
         `;
 
