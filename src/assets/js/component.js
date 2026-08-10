@@ -32,10 +32,10 @@ class popUp extends HTMLElement {
 
                     <button class="close-popup">X</button>
 
-                    <h2>📢 Curso disponível em breve</h2>
+                    <h2>📢 Curso disponível </h2>
 
                     <p>
-                        Em breve estará no ar o curso livre de
+                        Está no ar o curso livre de
                         <strong>“Aprimoramento Profissional em Técnicas de Enfermagem”</strong>.
                     </p>
 
