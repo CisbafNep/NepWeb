@@ -32,10 +32,10 @@ class popUp extends HTMLElement {
 
                     <button class="close-popup">X</button>
 
-                    <h2>📢 EM BREVE </h2>
+                    <h2>📢 CURSO DISPONÍVEL </h2>
 
                     <p>
-                        Em breve estará disponível o Curso livre
+                        Está disponível o Curso livre
                         <strong>“Transtorno Espectro Autista - Saberes Integrados para o Cuidado em Rede”</strong>.
                     </p>
 
